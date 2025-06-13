@@ -27,4 +27,5 @@ ul.nav li a:hover:not(.active) {
 .active {
     font-weight: bold;
     background-color:  red;
+    color: white;
 }

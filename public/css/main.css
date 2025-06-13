@@ -1,0 +1,30 @@
+.main {
+    
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+ul.nav {
+    list-style-type:  none;
+    list-style-position: inside;
+    padding: 0;
+    margin:0;
+    background-color: rgb(46, 154, 154);
+}
+ul.nav li {
+    display: inline;
+    margin-right: 10px;
+}
+ul.nav li a {
+    text-decoration: none;
+    color: black;
+}
+ul.nav li a:hover:not(.active) {
+    
+    color:rgb(180, 180, 191);
+}
+.active {
+    font-weight: bold;
+    background-color:  red;
+}
